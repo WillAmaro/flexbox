@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 60px;
+    padding: 0 50px;
+    background-color: #C9E7F2;
+}
+
+.header_container{
+ 
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C9E7F2;
+
+}
+.header_container .header_nav ul{
+
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 2em;
+
+}
+
+.header_container .header_nav li{
+    font-weight: 800;
+    color : #1D2942;
+    padding: 10px;
+}
+.header_container .header_nav li:hover{
+    outline: -webkit-focus-ring-color auto 10px;
+    background-color: #1d2942b6;
+    cursor: pointer;
+    color: white;
+    transition: 2s all ease-in-out;
+    box-shadow:0 0 0 5px azure;
+}
+
+.header_container .header_signin{
+    border: 1px solid transparent;
+    outline: none;
+    background-color: #1D2942;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-weight: 600    ;
+
+}
+
+main{
+    padding: 20px 50px;
+}
+
+.products_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 20px;
+}
+
+.products_container .card{
+    border-radius: 20px;
+    width: 45%;
+    height: 300px;
+    border:1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
